@@ -1,0 +1,345 @@
+[
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/504_png.rf.25024d2f7714f2391cff267cc69c873e.jpg",
+    [[0.56015625, 0.421875, 0.1296875, 0.1734375, "right_merges_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/457_png.rf.563d47760b0c10f9d1259fabd0f871e2.jpg",
+    [[0.42421875, 0.409375, 0.16953125, 0.2015625, "left_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/495_png.rf.3f4f6cfd5d022fa498d1df7e1207b6ac.jpg",
+    [[0.3109375, 0.47734375, 0.08125, 0.2, "pedestrian_crossing_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/494_png.rf.e2e7815d668a70bcea7da13ed6c17e97.jpg",
+    [[0.40546875, 0.53203125, 0.08984375, 0.12578125, "right_merges_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/472_png.rf.559d83125b7f3fefc7fac15a76cdef49.jpg",
+    [
+      [0.271875, 0.43828125, 0.14609375, 0.1703125, "roundabout_ahead"],
+      [0.46484375, 0.3609375, 0.30078125, 0.23203125, "directional_normal"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/437_png.rf.69f0823d5b1d3b010cee7d6408be533f.jpg",
+    [
+      [0.5296875, 0.51328125, 0.18125, 0.2015625, "directional_normal"],
+      [0.8796875, 0.5734375, 0.053125, 0.0234375, "directional_express_way"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/470_png.rf.42d82aa439d7f1d10bd86a010f16ab55.jpg",
+    [[0.3609375, 0.6, 0.05859375, 0.06875, "left_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/441_png.rf.7f2a0cce1ad4c62411276f21672ca7a4.jpg",
+    [
+      [0.715625, 0.4515625, 0.3140625, 0.33671875, "directional_normal"],
+      [0.59765625, 0.4109375, 0.053125, 0.1109375, "expressway_entrance_start"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/514_png.rf.fc61385e521eecb308a9e52e00d1cb10.jpg",
+    [[0.590625, 0.42890625, 0.1109375, 0.1484375, "right_merges_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/485_png.rf.686ca9d10b1038c90be80ae9946f1854.jpg",
+    [
+      [0.83671875, 0.42734375, 0.03203125, 0.04375, "chevron_markers"],
+      [0.9265625, 0.43125, 0.034375, 0.05078125, "chevron_markers"],
+      [0.5796875, 0.43984375, 0.028125, 0.0484375, "chevron_markers"],
+      [0.5296875, 0.42734375, 0.01875, 0.03828125, "chevron_markers"],
+      [0.4875, 0.428125, 0.0234375, 0.0390625, "chevron_markers"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/478_png.rf.366593760bb27f668b75f6bc71513a5a.jpg",
+    [[0.40625, 0.496875, 0.2609375, 0.19140625, "directional_normal"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/455_png.rf.5cc7d618e41e548f0c154b5fc9a21b4b.jpg",
+    [[0.575, 0.35390625, 0.08828125, 0.10625, "left_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/491_png.rf.b3ab3a36b920e1b5ca236e4abef4d736.jpg",
+    [
+      [0.571875, 0.4984375, 0.1, 0.040625, "directional_normal"],
+      [0.57109375, 0.5375, 0.09453125, 0.03359375, "directional_express_way"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/444_png.rf.0f8e0812cd9a2c1c7ecf1db3fed22f87.jpg",
+    [[0.39375, 0.325, 0.1359375, 0.14296875, "pedestrian_crossing"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/452_png.rf.5ece2fe84fa380257501aad8a1b4cd43.jpg",
+    [
+      [0.55234375, 0.45625, 0.15625, 0.16328125, "directional_normal"],
+      [0.5484375, 0.34765625, 0.1609375, 0.0859375, "directional_express_way"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/436_png.rf.ddca3d6cef79a83e478fa747d3a08b46.jpg",
+    [[0.35234375, 0.3703125, 0.15625, 0.25625, "double_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/496_png.rf.efd1f3214b6cefaea3a5fe3e3f835dd5.jpg",
+    [
+      [0.45234375, 0.425, 0.28359375, 0.12109375, "directional_normal"],
+      [0.46171875, 0.5421875, 0.27734375, 0.1109375, "directional_express_way"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/459_png.rf.675c7046f1c4a2f34954ad9bd9dae85d.jpg",
+    [
+      [0.62734375, 0.45078125, 0.10625, 0.13671875, "right_merges_ahead"],
+      [0.36015625, 0.2984375, 0.13515625, 0.1796875, "bus_stop"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/512_png.rf.de073f96572b202ad46b33c84e1015ca.jpg",
+    [[0.565625, 0.36640625, 0.0796875, 0.09765625, "pedestrian_crossing"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/480_png.rf.616eafe26f1c560d38f158886f368f97.jpg",
+    [[0.50078125, 0.45078125, 0.15625, 0.18984375, "pedestrian_crossing_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/449_png.rf.3f182b43084d4c22466ec1f64f24a7bf.jpg",
+    [
+      [0.3734375, 0.30390625, 0.14609375, 0.18515625, "T_juc_ahead"],
+      [0.78828125, 0.44921875, 0.03359375, 0.040625, "pedestrian_crossing"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/477_png.rf.8dd471a49f4dab40116b17f7be6fb18e.jpg",
+    [[0.140625, 0.509375, 0.1, 0.065625, "directional_normal"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/453_png.rf.4b1ce4707b0ea3fcf2784f1cc8a5119b.jpg",
+    [
+      [0.35625, 0.3828125, 0.36484375, 0.2578125, "directional_normal"],
+      [0.2234375, 0.3328125, 0.0609375, 0.10078125, "expressway_entrance_start"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/439_png.rf.42ee64006f748ea990d99ea9b4cb5bd1.jpg",
+    [[0.721875, 0.44921875, 0.05078125, 0.05859375, "pedestrian_crossing"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/446_png.rf.20b85255d83f1f310d8f93074e24528e.jpg",
+    [[0.678125, 0.5234375, 0.10625, 0.046875, "directional_express_way"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/484_png.rf.2004375f702d02e5d5c1cb5ca1d1166c.jpg",
+    [[0.628125, 0.49765625, 0.08359375, 0.0421875, "directional_express_way"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/451_png.rf.d2333194df156bdce94dc304f0828e42.jpg",
+    [[0.53203125, 0.40078125, 0.1859375, 0.23359375, "directional_normal"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/486_png.rf.6213d84a5ee59113ac5ca2f576c9616b.jpg",
+    [[0.159375, 0.31015625, 0.16328125, 0.19140625, "stop"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/458_png.rf.ead2c9f55e66a5a0fe17f69dc0263d7f.jpg",
+    [
+      [0.6765625, 0.5171875, 0.05234375, 0.08046875, "bus_stop"],
+      [0.78515625, 0.58046875, 0.04453125, 0.05546875, "right_merges_ahead"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/475_png.rf.0135d3233a721c0c00071f9615bc7fdf.jpg",
+    [[0.265625, 0.31328125, 0.08515625, 0.090625, "pedestrian_crossing"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/443_png.rf.94a9bd596a5562b2de8b3b442547b015.jpg",
+    [
+      [
+        0.29296875,
+        0.44453125,
+        0.04453125,
+        0.1078125,
+        "expressway_entrance_start"
+      ],
+      [0.42109375, 0.4671875, 0.32109375, 0.36015625, "directional_normal"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/493_png.rf.c0a508b5ec2c394f216b35db0a3d688e.jpg",
+    [
+      [0.1359375, 0.34140625, 0.27109375, 0.13125, "directional_normal"],
+      [0.13984375, 0.45859375, 0.2796875, 0.1234375, "directional_express_way"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/507_png.rf.f168a7ea15b5673d3d0b6f31a44ed627.jpg",
+    [[0.59765625, 0.3265625, 0.225, 0.303125, "right_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/482_png.rf.f23546905748c598d7a82a708f0b5c18.jpg",
+    [[0.303125, 0.3875, 0.0625, 0.09609375, "left_merges_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/454_png.rf.a27f8551172652dbfa0c21952226c98c.jpg",
+    [
+      [0.2546875, 0.4375, 0.05078125, 0.07265625, "expressway_entrance_start"],
+      [0.35859375, 0.47421875, 0.28828125, 0.18359375, "directional_normal"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/447_png.rf.e93748eb5c09ebe6b4b4d01edf4c70cf.jpg",
+    [[0.3078125, 0.4640625, 0.06953125, 0.0890625, "stop"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/464_png.rf.d9894e1e1650e40ddc99a55d05755fde.jpg",
+    [[0.61796875, 0.45, 0.2171875, 0.25234375, "directional_normal"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/489_png.rf.ce10d2bcb1032f77c7ca43f138e6a2aa.jpg",
+    [[0.415625, 0.45859375, 0.05625, 0.07421875, "stop"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/488_png.rf.954d79906afe1135fc34d7de3603824e.jpg",
+    [[0.396875, 0.496875, 0.08828125, 0.0890625, "stop"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/474_png.rf.f395e072a8aa2fdd7bdabb533b935e8a.jpg",
+    [[0.89140625, 0.43125, 0.06484375, 0.10234375, "right_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/462_png.rf.19690770d6ce8cbbacd68262d6fb0082.jpg",
+    [[0.8703125, 0.41953125, 0.10703125, 0.14140625, "left_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/461_png.rf.60749c83e07e1beb3f462a4d554a0deb.jpg",
+    [[0.51875, 0.4875, 0.1234375, 0.15625, "left_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/469_png.rf.387db0b051a16a7d7a0de298541bab08.jpg",
+    [
+      [0.11171875, 0.434375, 0.2234375, 0.121875, "directional_normal"],
+      [0.1125, 0.5609375, 0.225, 0.11875, "directional_express_way"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/505_png.rf.4e97daf66a5cfd7d6005d05687bee86b.jpg",
+    [[0.4203125, 0.3515625, 0.16484375, 0.1953125, "left_merges_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/497_png.rf.ef11d3e3082f31d53640479db997d56e.jpg",
+    [[0.453125, 0.44453125, 0.05625, 0.09296875, "bus_stop"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/465_png.rf.c71f004e90d5d454cd1ac0cbd55aa0c3.jpg",
+    [[0.58671875, 0.3375, 0.475, 0.55859375, "directional_normal"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/506_png.rf.06b7ca790955bb3b82c11641f3785981.jpg",
+    [[0.50625, 0.403125, 0.11953125, 0.16796875, "right_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/456_png.rf.bf2fb5b0b4102597c09fda3a900c602e.jpg",
+    [[0.821875, 0.37265625, 0.08125, 0.09765625, "left_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/501_png.rf.d46e2497e4e94fbe790630e19755a1b7.jpg",
+    [
+      [0.29296875, 0.5515625, 0.07265625, 0.10234375, "left_bend_ahead"],
+      [0.91328125, 0.56640625, 0.053125, 0.07734375, "right_merges_ahead"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/490_png.rf.dea629e2005961eecee9c518d4c69378.jpg",
+    [[0.95546875, 0.4484375, 0.08828125, 0.153125, "stop"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/438_png.rf.1d4f973a54dbba72993b65a2e9b7e312.jpg",
+    [
+      [0.4671875, 0.33828125, 0.2859375, 0.1078125, "directional_express_way"],
+      [0.78359375, 0.40859375, 0.040625, 0.04921875, "pedestrian_crossing"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/511_png.rf.57e794189e7fd02463431aae1042ae33.jpg",
+    [[0.46015625, 0.484375, 0.0625, 0.090625, "pedestrian_crossing"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/445_png.rf.18781d6c023893ee3f00398df6930adc.jpg",
+    [[0.815625, 0.4734375, 0.18359375, 0.10078125, "directional_normal"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/466_png.rf.ff43547aecf7c24c922768e73c4ff367.jpg",
+    [
+      [
+        0.66953125,
+        0.4203125,
+        0.07109375,
+        0.0828125,
+        "pedestrian_crossing_ahead"
+      ]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/440_png.rf.6e09c8d812601f40d52a0ae8ed2323d2.jpg",
+    [[0.53671875, 0.4796875, 0.25, 0.18984375, "directional_normal"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/487_png.rf.bc1b197420146530beb5a9fba85d1472.jpg",
+    [[0.21640625, 0.4015625, 0.06015625, 0.0484375, "directional_express_way"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/513_png.rf.b560749e4cbd01555f573ad20bf4aa83.jpg",
+    [[0.32421875, 0.41015625, 0.17734375, 0.2203125, "right_merges_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/460_png.rf.096f98999e3d3dca3e5b4ab45aa26a30.jpg",
+    [
+      [0.521875, 0.58828125, 0.096875, 0.12421875, "left_merges_ahead"],
+      [0.759375, 0.64375, 0.01875, 0.03125, "bus_stop"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/476_png.rf.3dcae7c691bb8eefdef841a808e5a89b.jpg",
+    [[0.440625, 0.46640625, 0.109375, 0.11953125, "right_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/448_png.rf.bf05f7884ba8da2f93a75704a5d7bdb8.jpg",
+    [[0.2796875, 0.48125, 0.1609375, 0.1984375, "stop"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/500_png.rf.9cea5bb2be29bd78fb85b892dfcfaa7b.jpg",
+    [[0.40625, 0.5109375, 0.115625, 0.16796875, "T_juc_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/471_png.rf.cf0e5ffafed70c057e06a76200fb8442.jpg",
+    [
+      [0.41953125, 0.43984375, 0.090625, 0.109375, "pedestrian_crossing_ahead"],
+      [0.72265625, 0.4421875, 0.09453125, 0.07265625, "directional_normal"],
+      [0.70078125, 0.47421875, 0.0359375, 0.0421875, "roundabout_ahead"]
+    ]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/473_png.rf.77215a4d21bc12c01465aabe7266c050.jpg",
+    [[0.440625, 0.353125, 0.103125, 0.13984375, "right_bend_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/502_png.rf.d76a340ebef351acb7a30b6ee8e65543.jpg",
+    [[0.3921875, 0.3578125, 0.190625, 0.2203125, "left_merges_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/499_png.rf.6e795c2b48ff65831451b58615704fd0.jpg",
+    [[0.58125, 0.45859375, 0.0546875, 0.065625, "T_juc_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/463_png.rf.8edb79b5c21a56d959a8f4448ecd32ae.jpg",
+    [[0.678125, 0.4234375, 0.06484375, 0.0828125, "T_juc_ahead"]]
+  ],
+  [
+    "/home/pasannissanka/Projects/SignRecognition/code/scripts/../data/498_png.rf.ea955b52f4b2e53c11d43d6fec9a7ebf.jpg",
+    [[0.38203125, 0.30859375, 0.44609375, 0.37734375, "directional_normal"]]
+  ]
+]
