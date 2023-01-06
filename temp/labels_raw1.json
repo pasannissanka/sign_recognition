@@ -1,0 +1,280 @@
+[
+  { "name": "Left Bend Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Right Bend Ahead", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Double Bend to Left Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Double Bend to Right Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Hair Pin Bend to Right Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Hair Pin Bend to Left Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Dual Carriage-way Ends", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Dual Carriage-way Starts Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Road Narrows Ahead", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Road Narrows on the Left Side Ahed",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road Narrows on the Right Side Ahed",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Cross Roads Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Staggered Junction Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "T' Junction Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Y' Junction Ahead", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Traffic From Left Merges Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Side Road From Left Intersects at Right Angle Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Traffic From Right Merges Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Side Road From Right Intersects at Right Angle Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Narrow Bridge or Culvert Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Two-way Traffic Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Stop Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Give Way Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Roundabout Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Light Signals Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Dangerous Descent Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Dangerous Ascent Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Slippery Road Ahead", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Loose Aggregate/ Gravel Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Falling Rocks Ahead", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Pedestrian Crossing Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Children present/ crossing Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Blind people crossing Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Road Work Ahead", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Level Crossing with Gates Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Unprotected Level Crossing Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Bus Lane Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Cycle Lane Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Cyclist crossing Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Cattle Crossing Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Road Ahead on a Quay", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Dangerous Side Slopes Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Road Hump Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Uneven Road Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Dip or Causeway Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Hump Bridge Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Tunnel Ahead", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Low flying Air Crafts Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Railway Level Crossing Ahead",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "No Entry", "type": "rectangle", "attributes": [] },
+  { "name": "No Left Turn", "type": "rectangle", "attributes": [] },
+  { "name": "No Right Turn", "type": "rectangle", "attributes": [] },
+  { "name": "No U-turn", "type": "rectangle", "attributes": [] },
+  { "name": "No Overtaking", "type": "rectangle", "attributes": [] },
+  { "name": "End of No Overtaking", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Overtaking by Goods Vehicles Prohibited",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "End of Overtaking by Goods Vehicles",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "No Horning", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Road Closed for all vehicles",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road closed for Motor vehicles",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Road Closed for Buses", "type": "rectangle", "attributes": [] },
+  { "name": "Road Closed for Lorries", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Road closed for Articulated vehicles",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road Closed for Power Driven Agricultural Vehicles",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road closed for Hand Tractors",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road Closed for Three-Wheelers",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road Closed for Motorcycles",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Road Closed for Cycles", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Road Closed for Animal-drawn Vehicles",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road Closed for Hand carts",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Road Closed for Pedestrians",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "No Parking", "type": "rectangle", "attributes": [] },
+  { "name": "No Parking and Standing", "type": "rectangle", "attributes": [] },
+  { "name": "No Parking on Odd days", "type": "rectangle", "attributes": [] },
+  { "name": "No Parking on Even days", "type": "rectangle", "attributes": [] },
+  { "name": "Width Limit", "type": "rectangle", "attributes": [] },
+  { "name": "Height Limit", "type": "rectangle", "attributes": [] },
+  { "name": "Weight Limit", "type": "rectangle", "attributes": [] },
+  { "name": "Weight Limit on One Axle", "type": "rectangle", "attributes": [] },
+  { "name": "Speed Limit", "type": "rectangle", "attributes": [] },
+  { "name": "Turn Left", "type": "rectangle", "attributes": [] },
+  { "name": "Turn Right", "type": "rectangle", "attributes": [] },
+  { "name": "Straight Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Turn Left Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Turn Right Ahead", "type": "rectangle", "attributes": [] },
+  { "name": "Pass Left Side", "type": "rectangle", "attributes": [] },
+  { "name": "Pass Right Side", "type": "rectangle", "attributes": [] },
+  { "name": "Pass either side", "type": "rectangle", "attributes": [] },
+  { "name": "Compulsory Roundabout", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Stop to give priority to vehicles on the adjacent road",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Give Way to vehicles on the adjacent road",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Pedestrian Crossing", "type": "rectangle", "attributes": [] },
+  { "name": "Hospital", "type": "rectangle", "attributes": [] },
+  { "name": "Parking", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Parking for Handicapped Persons",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Bus Stop", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Bus only Lane Begins or Continues",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Bus Only Lane Ends", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Cycle only Lane Begins or Continues",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "Cycle only Lane Ends", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Cycle and Pedestrian Lane Begins or Continues",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Cycle and Pedestrian Lane Ends",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Entrance to an Expressway",
+    "type": "rectangle",
+    "attributes": []
+  },
+  { "name": "End of Expressway", "type": "rectangle", "attributes": [] },
+  {
+    "name": "Directional Sign (NORMAL)",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Directional Sign (EXPRESS WAY)",
+    "type": "rectangle",
+    "attributes": []
+  }
+]
