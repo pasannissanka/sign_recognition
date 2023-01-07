@@ -13,14 +13,11 @@ DATASET = {'data':[],'labels':{}}
 # filename - name of the annotation file (001_png.rf.d103eb57fd9f9ac246b602a8e3393dc2.txt)
 # path - full file path
 def _handle_annotations(content, filename, path, ext = ".jpg"):
-  filename_split = filename.split(".")
-
   # handle image info
-  d = ['', []]
+  data = ['', [], []]
   img_path = path.replace(".txt", ext)
 
-  d[0] = img_path
-  d[1] = []
+  data[0] = img_path
 
   # handle annotations
   for line in content:
@@ -28,11 +25,11 @@ def _handle_annotations(content, filename, path, ext = ".jpg"):
     label_id = int(line_split[0])
     annotation = line_split[1:]
     if DATASET["labels"] != None:
+      data[1].append(label_id)
       label = DATASET["labels"][label_id]
       annotation.append(label)
-    d[1].append(annotation)
-
-  return d
+    data[2].append(annotation)
+  return data
 
 
 def _handle_labels(content):
@@ -67,7 +64,7 @@ def extract():
   return DATASET
   
 
-# [[image_path, [[bb],[bb],...]], [image_path, [[bb],[bb],...]]]
+# [[image_path, [classes] [[bb],[bb],...]], [image_path, [[bb],[bb],...]]]
 def main():
   list = extract()
   print(list["data"])
