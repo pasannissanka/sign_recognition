@@ -5,11 +5,15 @@ data/*.txt
 data/*.json
 data/_darknet.labels
 
-generated/*.jpg
-generated/*.png
-generated/*.txt
+generated/**/*.jpg
+generated/**/*.png
+generated/**/*.txt
 generated/*.json
 generated/_darknet.labels
+
+detect
+
+*.pt
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python,visualstudiocode
@@ -213,3 +217,4 @@ poetry.toml
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python,visualstudiocode
+*events.out.tfevents.*
