@@ -9,5 +9,9 @@
   </component>
   <component name="PackageRequirementsSettings">
     <option name="versionSpecifier" value="Strong equality (==x.y.z)" />
+    <option name="keepMatchingSpecifier" value="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
   </component>
 </module>
