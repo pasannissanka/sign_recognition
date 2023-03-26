@@ -20,7 +20,7 @@ weightsPath = os.path.join(root, 'yolo-coco/yolov3.weights')
 configPath = os.path.join(root, 'yolo-coco/yolov3.cfg')
 
 
-def object_detection(img, conf, thres):
+def detect_image(img, conf, thres):
 
     # load our YOLO object detector trained on COCO dataset (80 classes)
     print("[INFO] loading YOLO from disk...")
@@ -36,8 +36,6 @@ def object_detection(img, conf, thres):
     ln = net.getLayerNames()
     # CPU
     ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
-    # GPU CUDA
-    # ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 
     # construct a blob from the input image and then perform a forward
     # pass of the YOLO object detector, giving us our bounding boxes and
@@ -123,4 +121,4 @@ if __name__ == '__main__':
     ap.add_argument("-t", "--threshold", type=float, default=0.3, help="threshold when applying non-maxima suppression")
     args = vars(ap.parse_args())
 
-    object_detection(args["image"], args["confidence"], args["threshold"])
+    detect_image(args["image"], args["confidence"], args["threshold"])
