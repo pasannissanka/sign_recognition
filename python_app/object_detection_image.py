@@ -8,7 +8,7 @@ import os
 
 root = os.path.dirname(__file__)
 # load the COCO class labels our YOLO model was trained on
-labelsPath = os.path.join(root, 'yolo-coco/coco.names')
+labelsPath = os.path.join(root, 'models/yolo-coco/coco.names')
 LABELS = open(labelsPath).read().strip().split("\n")
 
 # initialize a list of colors to represent each possible class label
@@ -16,8 +16,8 @@ np.random.seed(42)
 COLORS = np.random.randint(0, 255, size=(len(LABELS), 3), dtype="uint8")
 
 # derive the paths to the YOLO weights and model configuration
-weightsPath = os.path.join(root, 'yolo-coco/yolov3.weights')
-configPath = os.path.join(root, 'yolo-coco/yolov3.cfg')
+weightsPath = os.path.join(root, 'models/yolo-coco/yolov3.weights')
+configPath = os.path.join(root, 'models/yolo-coco/yolov3.cfg')
 
 
 def detect_image(img, conf, thres):

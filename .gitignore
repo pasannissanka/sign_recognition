@@ -221,3 +221,7 @@ poetry.toml
 
 notebooks/traffic-signs-2
 # notebooks/traffic-signs-2/README.roboflow.txt
+python_app/images/*.jpg
+python_app/output/**
+python_app/videos/**
+python_app/models/*/
