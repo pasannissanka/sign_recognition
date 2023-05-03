@@ -41,3 +41,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
         -D BUILD_EXAMPLES=ON ..
 ```
 
+to use compiled opencv binaries with GPU support,
+* remove previously installed opencv-python dependencies
+* create a symlink at venv/lib/python3.10/site-packages with compiled binary at /usr/local/lib/python3.10/site-packages/cv2/python-3.10/cv2.cpython-310-x86_64-linux-gnu.so
+* ```
+  ln -s /usr/local/lib/python3.10/site-packages/cv2/python-3.10/cv2.cpython-310-x86_64-linux-gnu.so cv2.so
+  ```
