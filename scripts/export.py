@@ -1,5 +1,7 @@
 from datetime import datetime, timezone
 import cv2
+import shutil
+import os
 
 
 def get_keys_from_value(d, val):
@@ -21,3 +23,9 @@ def save_to_files(transformed_arr, path, LABELS):
                                             _label[3]))
                 f.write("\n")
         cv2.imwrite(path + "/" + str(_id) + ".jpg", _img)
+
+
+def move_files(data, output_dir, datatype):
+    for d in data.values:
+        shutil.copy(d[1], os.path.join(output_dir, datatype))
+        shutil.copy(d[2], os.path.join(output_dir, datatype))

@@ -68,10 +68,22 @@ def extract():
     return DATASET
 
 
+def extract_all():
+    data = []
+    for file in os.scandir(data_dir):
+        file_path = os.path.join(data_dir, file)
+
+        if file_path.endswith(".jpg"):
+            # _d = {'label': file_path.replace(".jpg", ".txt"), 'image': file_path, 'id': file_path.split(".")[-2]}
+            _d = [file_path.split(".")[-2], file_path, file_path.replace(".jpg", ".txt")]
+            data.append(_d)
+    return data
+
+
 # [[image_path, [classes] [[bb],[bb],...]], [image_path, [[bb],[bb],...]]]
 def main():
-    data_list = extract()
-    print(data_list["data"])
+    data_list = extract_all()
+    print(data_list)
 
 
 if __name__ == "__main__":

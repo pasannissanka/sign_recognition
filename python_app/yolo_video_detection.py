@@ -6,30 +6,32 @@ import os
 import imutils
 from tqdm import tqdm
 
+root = os.path.dirname(__file__)
+model_path = os.path.join(root, 'models/yolo_onnx')
 
-def detect_frames(input_path, output_path, yolo_dir, conf, thres, is_video):
-    # load the COCO class labels our YOLO model was trained on
-    labels_path = os.path.sep.join([yolo_dir, "coco.names"])
+
+def detect_frames(input_path, output_path, conf, thres, is_video):
+    # load the labels our YOLO model was trained on
+    labels_path = os.path.join(model_path, "labels.txt")
     LABELS = open(labels_path).read().strip().split("\n")
 
     # initialize a list of colors to represent each possible class label
     np.random.seed(42)
     COLORS = np.random.randint(0, 255, size=(len(LABELS), 3), dtype="uint8")
 
-    # derive the paths to the YOLO weights and model configuration
-    weights_path = os.path.sep.join([yolo_dir, "yolov3.weights"])
-    config_path = os.path.sep.join([yolo_dir, "yolov3.cfg"])
+    # derive the paths to the YOLO weights
+    weights_path = os.path.join(model_path, "best.onnx")
 
     # load our YOLO object detector trained on COCO dataset (80 classes)
     # and determine only the *output* layer names that we need from YOLO
     print("[INFO] loading YOLO from disk...")
-    net = cv2.dnn.readNetFromDarknet(config_path, weights_path)
+    net = cv2.dnn.readNetFromONNX(weights_path)
 
     net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
     net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
-    ln = net.getLayerNames()
-    ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
+    ln = net.getUnconnectedOutLayersNames()
+    # ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
 
     # initialize the video stream, pointer to output video file, and
     # frame dimensions
@@ -77,10 +79,14 @@ def detect_frames(input_path, output_path, yolo_dir, conf, thres, is_video):
         # construct a blob from the input frame and then perform a forward
         # pass of the YOLO object detector, giving us our bounding boxes
         # and associated probabilities
-        blob = cv2.dnn.blobFromImage(frame, 1 / 255.0, (416, 416), swapRB=True, crop=False)
+        blob = cv2.dnn.blobFromImage(frame, 1/255.0, (620, 620), swapRB=True, crop=False)
         net.setInput(blob)
         start = time.time()
-        layerOutputs = net.forward(ln)
+        # Runs the forward pass to get output of the output layers.
+        output_layers = net.getUnconnectedOutLayersNames()
+        layerOutputs = net.forward()
+        # layerOutputs = net.forward(ln)
+        print(layerOutputs[0].shape)
         end = time.time()
 
         elap = (end - start)
@@ -175,11 +181,11 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--input", required=True, help="path to input video")
     ap.add_argument("-o", "--output", required=True, help="path to output video")
-    ap.add_argument("-y", "--yolo", required=True, help="base path to YOLO directory")
+    # ap.add_argument("-y", "--yolo", required=True, help="base path to YOLO directory")
     ap.add_argument("-s", "--show", action=argparse.BooleanOptionalAction, default=False, help="Show video")
     ap.add_argument("-c", "--confidence", type=float, default=0.5, help="minimum probability to filter weak detections")
     ap.add_argument("-t", "--threshold", type=float, default=0.3, help="threshold when applying non-maxima suppression")
     args = vars(ap.parse_args())
 
-    detect_frames(input_path=args["input"], output_path=args["output"], yolo_dir=args["yolo"],
+    detect_frames(input_path=args["input"], output_path=args["output"],
                   conf=args["confidence"], thres=args["threshold"], is_video=args["show"])
