@@ -1,9 +1,10 @@
 # Dont add dataset to git
-data/*.jpg
-data/*.png
-data/*.txt
+data/**/*.jpg
+data/**/*.png
+data/**/*.txt
 data/*.json
 data/_darknet.labels
+
 
 generated/**/*.jpg
 generated/**/*.png
