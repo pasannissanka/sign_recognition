@@ -226,3 +226,8 @@ python_app/images/*.jpg
 python_app/output/**
 python_app/videos/**
 python_app/models/*/
+
+*.onnx
+
+*.bin
+*.param

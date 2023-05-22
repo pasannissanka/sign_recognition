@@ -7,7 +7,7 @@ import argparse
 
 root = os.path.dirname(__file__)
 data_dir = os.path.join(root, "../data/t100k")
-out_dir = os.path.join(root, "../generated/pytorch_conv")
+out_dir = os.path.join(root, "../generated/darknet_2")
 
 
 def xml_to_yolo_bbox(bbox, w, h):
@@ -66,10 +66,11 @@ def main(PYTORCH=False):
                 img_out_path = os.path.join(out_dir, "{}/images/{}-{}.jpg".format(paths[0], paths[1], _uuid))
                 anno_out_path = os.path.join(out_dir, "{}/labels/{}-{}.txt".format(paths[0], paths[1], _uuid))
             else:
-                img_out_path = os.path.join(out_dir, "{}-{}.jpg".format(path, _uuid))
-                anno_out_path = os.path.join(out_dir, "{}-{}.txt".format(path, _uuid))
+                p = path.replace(".", "_")
+                img_out_path = os.path.join(out_dir, "{}-{}.jpg".format(p, _uuid))
+                anno_out_path = os.path.join(out_dir, "{}-{}.txt".format(p, _uuid))
 
-            move_img(img_in_path, img_out_path, 640)
+            move_img(img_in_path, img_out_path, 416)
 
             yolo_content = ""
 
@@ -93,4 +94,4 @@ def main(PYTORCH=False):
 
 
 if __name__ == "__main__":
-    main(True)
+    main(False)

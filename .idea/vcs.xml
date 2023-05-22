@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/model training/yolov4/darknet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/model training/yolov4/pytorch-YOLOv4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/model training/yolov5" vcs="Git" />
   </component>
 </project>

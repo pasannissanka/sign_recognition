@@ -1,0 +1,38 @@
+      Class     Images  Instances          P          R      mAP50   
+                   all        667        897      0.974      0.932      0.957      0.784
+            bend_ahead        667         23      0.993          1      0.995      0.882
+         bus_only_lane        667         42      0.977          1      0.995      0.836
+              bus_stop        667         15      0.926      0.832      0.934      0.732
+       chevron_markers        667         88      0.959      0.795      0.913      0.638
+children_crossing_ahead        667         13      0.986          1      0.995      0.909
+directional_express_way        667         46      0.977      0.911      0.933      0.723
+    directional_normal        667         59      0.965       0.94       0.99      0.795
+            expressway        667         13      0.986          1      0.995      0.802
+              give_way        667          9      0.979          1      0.995       0.76
+          height_limit        667          2      0.929          1      0.995      0.671
+              hospital        667          4      0.959          1      0.995      0.837
+        level_crossing        667         14          1      0.855      0.856      0.652
+level_crossing_gates_ahead        667          4      0.961       0.75      0.746      0.621
+    light_signal_ahead        667          9          1      0.951      0.995      0.736
+           merge_ahead        667         53       0.98      0.937      0.963      0.815
+              no_entry        667          9      0.981          1      0.995      0.843
+            no_horning        667          5      0.967          1      0.995      0.895
+            no_parking        667         22      0.991          1      0.995      0.841
+               no_turn        667         59      0.999      0.983      0.994      0.844
+             no_u_turn        667         20          1      0.872      0.961      0.745
+               one_way        667          2      0.851        0.5      0.828      0.828
+               parking        667          7      0.984          1      0.995       0.75
+                  pass        667         42      0.999          1      0.995      0.817
+   pedestrian_crossing        667        119      0.983      0.966      0.992      0.797
+pedestrian_crossing_ahead        667         59          1      0.966      0.966       0.79
+           road_closed        667          5      0.932        0.6      0.601      0.599
+    road_narrows_ahead        667          7      0.977          1      0.995      0.893
+      road_works_ahead        667          6       0.98          1      0.995      0.847
+            roundabout        667          9      0.967      0.889      0.961      0.809
+      roundabout_ahead        667          9          1      0.939      0.995      0.628
+             side_road        667         20      0.995          1      0.995      0.845
+           speed_limit        667         83      0.997      0.988      0.986      0.805
+                  stop        667         14      0.985          1      0.995      0.833
+                  turn        667          6      0.967          1      0.995      0.835
+Speed: 0.2ms pre-process, 4.5ms inference, 0.6ms NMS per image at shape (32, 3, 640, 640)
+Results saved to runs/val/v5s_traffic_pre_tt100k3
