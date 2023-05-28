@@ -231,3 +231,4 @@ python_app/models/*/
 
 *.bin
 *.param
+*.torchscript
